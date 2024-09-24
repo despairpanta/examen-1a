@@ -12,3 +12,87 @@ img,
 video {
   display: block;
 }
+
+.heebo {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.exercice {
+  background: #8ecae6;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: white;
+  padding: 50px 0 50px 0;
+}
+
+.bloc {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  padding: 35px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background: white;
+  width: 1728px;
+}
+
+/* .exercice-1 */
+
+.exercice-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.exercice-1 .bloc {
+  width: 25%;
+}
+
+/* exercice 2 */
+
+.exercice-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+/* exercice 3 */
+
+.exercice-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .exercice-4 */
+
+.exercice-4 {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  padding-right: 50px;
+}
+
+/* .exercice-5 */
+
+.exercice-5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.exercice-5 .bloc {
+  width: 50%;
+}
